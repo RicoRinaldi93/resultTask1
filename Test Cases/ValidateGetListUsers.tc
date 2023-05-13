@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>reqres.in</description>
+   <name>ValidateGetListUsers</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d1d1c01e-0af3-4271-b856-f468667162cd</testCaseGuid>
+</TestCaseEntity>
