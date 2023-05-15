@@ -22,6 +22,3 @@ WS.sendRequest(findTestObject('GetListUsers'))
 WS.verifyResponseStatusCode(response, 200)
 
 WS.verifyElementPropertyValue(response, 'data[0].id', 1)
-
-
-
