@@ -21,3 +21,4 @@ response = WS.sendRequest(findTestObject('PostRegister'))
 
 WS.verifyResponseStatusCode(response, 201)
 
+WS.verifyElementPropertyValue(response, 'email', "janet.weaver@reqres.in")

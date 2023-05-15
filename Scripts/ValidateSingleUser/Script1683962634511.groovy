@@ -20,4 +20,4 @@ import org.openqa.selenium.Keys as Keys
 response = WS.sendRequest(findTestObject('GetSingleUser'))
 
 WS.verifyResponseStatusCode(response, 200)
-
+WS.verifyElementPropertyValue(response, 'data.first_name', "Janet")

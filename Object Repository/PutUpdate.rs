@@ -56,7 +56,6 @@ WS.verifyResponseStatusCode(response, 200)
 
 assertThat(response.getStatusCode()).isEqualTo(200)
 
-
-WS.verifyElementPropertyValue(response, 'updatedAt', &quot;2023-05-13T08:07:17.640Z&quot;)</verificationScript>
+WS.verifyElementPropertyValue(response, 'job', &quot;zion resident&quot;)</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

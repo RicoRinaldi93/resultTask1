@@ -39,11 +39,10 @@ RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 
 ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
 
-
 WS.verifyResponseStatusCode(response, 200)
 
 assertThat(response.getStatusCode()).isEqualTo(200)
 
-WS.verifyElementPropertyValue(response, 'page', 1)</verificationScript>
+WS.verifyElementPropertyValue(response, 'data[0].id', 1)</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

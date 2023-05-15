@@ -21,3 +21,4 @@ response = WS.sendRequest(findTestObject('PutUpdate'))
 
 WS.verifyResponseStatusCode(response, 200)
 
+WS.verifyElementPropertyValue(response, 'email', "janet.weaver@reqres.in")
